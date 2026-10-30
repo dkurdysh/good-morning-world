@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: npm install --registry=https://registry.npmjs.org/
       - name: Build
-        run: npm run build -- --base=/good-morning-world-v2/
+        run: npm run build -- --base=/good-morning-world/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
