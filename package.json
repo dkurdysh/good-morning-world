@@ -1,0 +1,20 @@
+{
+  "name": "good-morning-world-synth",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test src/music.test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}
